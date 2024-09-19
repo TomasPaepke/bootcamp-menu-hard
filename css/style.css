@@ -4,23 +4,34 @@
 
 nav {
     display: flex;
-    background-color: #999;
-    width: 1000px;
+    justify-items:center;
+    align-items: center;
+    background-color: #dfdcdc;
+    max-width: 1000px;
     height: 3rem;
 
 
 }
 nav a {
-    display: flex;
     text-decoration: none;
+    margin: 1rem;
+    color: #a3a3a3;
+    font-weight: bold;
+    
 }
 nav img {
     height: 50%;
     margin: auto auto auto 1rem;
 }
 nav a:hover {
+    color: #222;
+    cursor: grab;
 
 }
+/* fick knappen mer till höger och texten mer centrerad genom att ge padding och margin-left till min knapp */
 .login-button {
-    
+  border: 1px solid #999;
+  border-radius: 0.30rem;
+  margin-left: auto;
+  padding: 1rem 1rem;  
 }
