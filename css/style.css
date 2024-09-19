@@ -1,0 +1,26 @@
+:root {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: #999;
+    width: 1000px;
+    height: 3rem;
+
+
+}
+nav a {
+    display: flex;
+    text-decoration: none;
+}
+nav img {
+    height: 50%;
+    margin: auto auto auto 1rem;
+}
+nav a:hover {
+
+}
+.login-button {
+    
+}
