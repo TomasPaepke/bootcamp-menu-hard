@@ -9,15 +9,11 @@ nav {
     background-color: #dfdcdc;
     max-width: 1000px;
     height: 3rem;
-
-
 }
 nav a {
     text-decoration: none;
     margin: 1rem;
     color: #a3a3a3;
-    font-weight: bold;
-    
 }
 nav img {
     height: 50%;
@@ -26,12 +22,18 @@ nav img {
 nav a:hover {
     color: #222;
     cursor: grab;
-
 }
-/* fick knappen mer till höger och texten mer centrerad genom att ge padding och margin-left till min knapp */
+/* fick knappen mer till höger och texten mer centrerad genom att ge padding och margin-left till min knapp 
+bytte <button> mot en <a> istället för att få det bättre i flexboxen, men kunde behålla klassen i CSS
+*/
 .login-button {
   border: 1px solid #999;
-  border-radius: 0.30rem;
+  border-radius: 0.25rem;
   margin-left: auto;
-  padding: 1rem 1rem;  
+  padding: 0.25rem 1rem;
+  color: #a3a3a3;
+}
+.login-button:hover {
+    color: #222;
+    border: 1px solid #222;
 }
